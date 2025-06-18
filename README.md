@@ -13,16 +13,60 @@ This repository contains a ChatGPT prompt designed specifically to generate bene
 
 ## Usage
 
-Replace the placeholders with the relevant information:
+Fill the Protocol fields with the relevant information and Prompt ChatGPT with the Prompt + filled Protocolo de Atendimento
 
-- `{Reason for Service}` — reason why the service was requested (e.g., agendamento, transferência)
-- `{Specialty}` — medical specialty involved (e.g., cardiologia, dermatologia)
-- `{Type of Service}` — type of service scheduled (e.g., consulta, exame)
-- `{include date and time}` — date and time when the service was scheduled
+### Protocolo de Atendimento
+
+```
+Protocolo de Atendimento
+- Solicitante:
+- Beneficiário:
+- Marca Óptica/CPF:
+- E-mail:
+- Telefone:
+
+Motivo do Atendimento:
+- Agendamento
+- Transferência
+- Cancelamento X
+- Indicação de Rede
+- Outros: ___________________________________________
+
+Tipo de Atendimento:
+- Consulta
+- Exame X
+
+Especialidade:
+- Alergologia
+- Anestesiologia
+- Cardiologia
+- Cirurgia Geral
+- Cirurgia Plástica
+- Dermatologia
+- Endocrinologia
+- Ginecologia e Obstetrícia
+- Hematologia
+- Infectologia
+- Medicina de Família e Comunidade
+- Medicina do Trabalho
+- Medicina Esportiva
+- Nefrologia
+- Neurologia
+- Oftalmologia
+- Ortopedia
+- Otorrinolaringologia
+- Pediatria
+- Pneumologia
+- Psiquiatria
+- Reumatologia
+- Urologia
+```
 
 ### Prompt (Revised):
 
-`Replace the placeholders with the appropriate information indicated as X and generate a beneficiary service report in Portuguese. The report should state that the requester made contact to request {Reason for Service} related to the {Specialty} specialty, and that the {Type of Service} was scheduled for {include date and time}. The text must be written in a single paragraph and must not contain any personal data. Adjust the content as necessary, taking into account variations in the Reason for Service (e.g., Scheduling, Transfer, Cancellation, Network Referral) and in the Type of Service (e.g., Consultation, Exam), ensure the language remains clear, accurate, and professional throughout.`
+```
+Replace the placeholders with the appropriate information indicated as X and generate a beneficiary service report in Portuguese. The report should state that the requester made contact to request {Reason for Service} related to the {Specialty} specialty, and that the {Type of Service} was scheduled for {include date and time}. The text must be written in a single paragraph and must not contain any personal data. Adjust the content as necessary, taking into account variations in the Reason for Service (e.g., Scheduling, Transfer, Cancellation, Network Referral) and in the Type of Service (e.g., Consultation, Exam), ensure the language remains clear, accurate, and professional throughout.
+```
 
 ## Example output
 
